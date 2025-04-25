@@ -14,15 +14,12 @@ void init()
 
 void add_to_head(int x)
 {
-	e[idx] = x ,ne[idx] = head ,head = idx ,idx ++;
+	e[idx] = x ,ne[idx] = head ,head = idx ++;
 }
 
 void add(int x, int k)ssss
 {s
-	e[idx] = x;s
-	ne[idx] = ne[k];s
-	ne[k] = idx;
-	idx ++;
+	e[idx] = x, ne[idx] = ne[k], ne[k] = idx ++;
 }
 
 void remove(int k)
