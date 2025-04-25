@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 using namespace std;
@@ -47,15 +48,15 @@ int main()
 			cin >> k;
 			remove(k);
 		}
-		else 
+		else
 		{
 			cin >> k >> x;
 			add(k, x);
-		}
-	}	
-	
-	for (int i = head; i != -1; i = ne[i]) cout << e[i] <<' ';
+		}	
+	}
+
+	for (int i = head; i != -1; i = ne[i]) cout << e[i] << ' ';
 	cout << endl;
 
-	return 0;	
+	return 0;
 }
