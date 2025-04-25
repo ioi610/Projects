@@ -18,8 +18,8 @@ void add_to_head(int x)
 	e[idx] = x ,ne[idx] = head ,head = idx ++;
 }
 
-void add(int x, int k)ssss
-{s
+void add(int x, int k)
+{
 	e[idx] = x, ne[idx] = ne[k], ne[k] = idx ++;
 }
 
